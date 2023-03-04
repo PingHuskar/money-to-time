@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.container label {
+  font-size: 5vh;
+}
+.container input[type=number] {
+  text-align: center;
+  height: 7.5vh;
+  font-size: 6vh;
+}
+.container hr {
+  color: white;
+  width: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: 3px solid white;
+}
+.container hr:last-of-type {
+  width: 50%;
+}
+.container #result {
+  font-size: 3vw;
+}/*# sourceMappingURL=App.css.map */
